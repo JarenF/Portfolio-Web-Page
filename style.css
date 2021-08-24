@@ -11,10 +11,11 @@ Needs to be wrapped with curly braces as this comment needs to be wrapped  with 
 
 
 body/* effects the body tag of html file/the main part of the page */ {
-  background-color: #87CEFA; /* background color-GhostWhite */
 padding: 20px;
-margin-left: 20px;}
- 
+margin-left: 20px;
+background: #87CEFA; /* Using a background with color-GhostWhite */;
+}
+
 .pageContainer /* effects the page container tag of html file/the container with the other image and about me part of the page */ {
   width: 940px; /*max-width of the wrapper ID measured in pixels*/
   margin: 20px auto 0 auto; /*space outside the visible 'border' */
@@ -22,6 +23,11 @@ margin-left: 20px;}
   background-color: #FFFFF0;
 }
  
+/* Any button over which the user's pointer is hovering = styled links using pseudo-classes */
+button:hover {
+  color: blue;
+}
+
 .imageContainer {
   float: left; /* places an element on the left or right side of its container */
   width: 620px; /* width of container */
