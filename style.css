@@ -1,0 +1,66 @@
+
+/* 
+Requires- background, color, font-family, font-size,
+ height, margin, padding, text-align
+*/
+
+/* This file is referenced in the file tag <link href="style.css" rel="stylesheet" type="text/css" /> withing the head of the html file.
+This file references the html tags such as 'body' below and provides stlying of your choice.
+Needs to be wrapped with curly braces as this comment needs to be wrapped  with the * and /
+*/
+
+
+body/* effects the body tag of html file/the main part of the page */ {
+  background-color: #87CEFA; /* background color-GhostWhite */
+padding: 20px;
+margin-left: 20px;}
+ 
+.pageContainer /* effects the page container tag of html file/the container with the other image and about me part of the page */ {
+  width: 940px; /*max-width of the wrapper ID measured in pixels*/
+  margin: 20px auto 0 auto; /*space outside the visible 'border' */
+  padding: 20px; /*space between 'border' and 'content' */
+  background-color: #FFFFF0;
+}
+ 
+.imageContainer {
+  float: left; /* places an element on the left or right side of its container */
+  width: 620px; /* width of container */
+ height: auto;
+}
+ 
+.textContainer {
+  float: left; 
+  width: 300px;
+  margin-left: 20px; /* sets the margin area on the left side of an element */
+  margin-top: 20px;
+}
+
+img {
+  width: 100%;
+}
+ 
+h1 {
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 64px;
+  color: #8b1b00;
+}
+
+ 
+p, li {
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  color: #000000;
+}
+
+/* 
+Makes the container properly fit the background
+*/
+.pageContainer:after { 
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+
+
