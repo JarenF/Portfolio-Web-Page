@@ -24,7 +24,7 @@ background: #87CEFA; /* Using a background with color-GhostWhite */;
 }
  
 /* Any button over which the user's pointer is hovering = styled links using pseudo-classes */
-button:hover {
+a:hover {
   color: blue;
 }
 
